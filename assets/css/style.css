@@ -1,0 +1,157 @@
+.wrapper {
+    width: 71%;
+    padding: 20px;
+    align-content: center;
+    margin: 0 auto;
+    font-family: Verdana;
+
+}
+
+body {
+    background-color: #FFF8E8;
+}
+
+img {
+    padding: 10px 20px 10px 0px;
+    height: 180px;
+    width: 150px;
+}
+
+
+#navbar {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 69%;
+    height: 70px;
+    border: 2px solid;
+    border-color: #eee;
+    z-index: 1;
+
+    
+}
+
+#navbar a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 26px 20px;
+    text-decoration: none;
+    align-content: center;
+    font-family: Verdana;
+    width: 10%;
+    
+
+}
+
+#navbar a:hover {
+    background: #eee;
+    color: black;
+
+}
+
+
+
+#relative {
+    float: left;
+    position: absolute;
+    text-align: center;
+    width: 220px;
+    background-color: #9d2933;
+    color: white;
+    height: 70px;
+    font-size: 19px;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+.content  {
+    border: 2px solid;
+    border-color: #eee;
+    padding: 50px;
+    margin-top: 100px;
+    font-family: Verdana;
+    background-color: white;
+
+}
+
+
+#footer {
+    text-align: center;
+    font-family: Verdana;
+    font-size: 10px;
+    position: absolute;
+    left: 0;
+    height: 50px;
+    background-color: #9d2933;
+    color: white;
+    width: 100%;
+    border-top: 10px solid;
+    border-color: black;
+
+}
+
+.column {
+    width: 26%;
+    padding: 10%;
+    float: left;
+}
+
+.column img {
+    margin-top: 12px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container{
+    position: relative;
+}
+
+.textblock {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #9d2933;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    opacity: 80%;
+    width: 76%;
+    
+}
+
+.message-input {
+    height: 150px;
+    width: 80%;
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+      width: 400px;
+      margin-top: 0;
+    }
+    
+    #navbar {
+        width: 400px;
+        margin-top: 0;
+    }
+
+    #relative {
+        width: 30%;
+    }
+
+    img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .textblock {
+        width: 70%;
+    }
+}
