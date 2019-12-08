@@ -1,5 +1,5 @@
 .wrapper {
-    width: 71%;
+    width: 71.5%;
     padding: 20px;
     align-content: center;
     margin: 0 auto;
@@ -15,7 +15,6 @@ img {
     padding: 10px 20px 10px 0px;
     height: 180px;
     width: 150px;
-    float: left;
 }
 
 
@@ -23,7 +22,7 @@ img {
     background-color: white;
     position: fixed;
     top: 0;
-    width: 69%;
+    width: 70%;
     height: 70px;
     border: 2px solid;
     border-color: #eee;
@@ -128,7 +127,7 @@ img {
 }
 
 .message-input {
-    height: 150px;
+    height: 200px;
     width: 80%;
 }
 
