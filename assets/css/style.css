@@ -1,10 +1,5 @@
-.wrapper {
-    width: 71.5%;
-    padding: 20px;
-    align-content: center;
-    margin: 0 auto;
-    font-family: Verdana;
-
+p {
+    text-align: center;
 }
 
 body {
@@ -13,25 +8,58 @@ body {
 
 img {
     padding: 10px 20px 10px 0px;
-    height: 180px;
-    width: 150px;
+    height: 250.17px;
+    width: 200.31px;
+}
+
+.card
+{
+     margin: 2rem !important;
+}
+
+/* label color */
+.input-field label {
+    color: #b71c1c !important;
+  }
+  /* label focus color */
+  .input-field input[type=text]:focus + label {
+    color: #b71c1c !important;
+  }
+  /* label underline focus color */
+  .input-field input[type=text]:focus + label {
+    color: #b71c1c !important;
+  }
+  /* valid color */
+  .row .input-field input:focus {
+    border-bottom: 1px solid #b71c1c !important;
+    box-shadow: 0 1px 0 0 #b71c1c !important;
+    color: #b71c1c !important;
+  }
+  /* invalid color */
+  .row .input-field input:invalid {
+    border-bottom: 1px solid #b71c1c !important;
+    box-shadow: 0 1px 0 0 #b71c1c !important;
+    color: #b71c1c !important;
+  }
+  /* icon prefix focus color */
+  .input-field .materialize-textarea .prefix.active {
+    color: #b71c1c !important;
+  }
+  .input-field {
+    color:#b71c1c !important;
+  }  
+
+  div.row > div.input-field.label-color-alternate > input+label.active {
+    color: #b71c1c !important;
+}
+.icon-red {
+    color:#b71c1c !important;
 }
 
 
-#navbar {
-    background-color: white;
-    position: fixed;
-    top: 0;
-    width: 70%;
-    height: 70px;
-    border: 2px solid;
-    border-color: #eee;
-    z-index: 1;
 
-    
-}
 
-#navbar a {
+/*#navbar a {
     float: right;
     display: block;
     color: black;
@@ -75,9 +103,9 @@ img {
     background-color: white;
 
 }
+*/
 
-
-#footer {
+/*#footer {
     text-align: center;
     font-family: Verdana;
     font-size: 10px;
@@ -129,6 +157,15 @@ img {
 .message-input {
     height: 200px;
     width: 80%;
+}
+
+.imageResolved img{
+    object-fit: cover;
+}
+
+.material-icons {
+    font-family: 'Material icons';
+    font-size: 24px;
 }
 
 @media screen and (max-width: 600px) {
